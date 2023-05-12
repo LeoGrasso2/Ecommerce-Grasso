@@ -12,9 +12,9 @@ const NavBar = () => {
       <Container className="container">
         <Navbar.Brand className="navbar-brand">Mi tienda</Navbar.Brand>
         <Nav className="me-auto nav d-flex">
-            <Nav.Link className="nav-item">Figuras</Nav.Link>
-            <Nav.Link className="nav-item">Mangas</Nav.Link>
-            <Nav.Link className="nav-item">Videojuegos</Nav.Link>
+            <Nav.Link className="nav-item" href="">Figuras</Nav.Link>
+            <Nav.Link className="nav-item" href="">Mangas</Nav.Link>
+            <Nav.Link className="nav-item" href="">Videojuegos</Nav.Link>
         </Nav>
         </Container>
         <CartWidget />
